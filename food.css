@@ -209,9 +209,11 @@ gap: 1rem;
    flex: 1 1 30rem;
 }
 .popular_image{
-    width: 50%;
-    height: 50%;
+    height:  25rem;
+    object-fit: cover;
+    width: 100%;
 }
+
 .box .image{
     width: 100%;
     height: 50%;
