@@ -224,12 +224,12 @@ gap: 1.5rem;
     padding: 5rem 1rem;
     border-radius: .5rem;
 } */
-.popular .box-container .box .h3{
+.popular .box-container .box h3{
     color:#333;
     font-size: 3rem;
     padding: auto;
 }
- .popular .box-container .box .starts{
+ .popular .box-container .box starts{
     color: gold;
     font-size: 1.7rem;
     padding: 1rem 0.5rem;
@@ -304,7 +304,7 @@ gap: 1.5rem;
     width: 100%;
     background: rgba(255,255,255,.9);
     padding: 2rem;
-    text-align: end;
+    text-align: center;
 }
 
 .gallery .box-container .box .content h3{
@@ -316,6 +316,10 @@ gap: 1.5rem;
     font-size: 1.3rem;
     color: rgb(60, 3, 3);
     padding: 1rem 0;
+}
+
+.gallery .box-container .box:hover .content{
+    top: 0;
 }
 
 .box .image{
